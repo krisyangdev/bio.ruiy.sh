@@ -5,8 +5,8 @@ import { useSyncExternalStore } from "react";
 type Theme = "light" | "dark";
 type Locale = "en" | "zh";
 
-const THEME_KEY = "ryan-site-theme";
-const LOCALE_KEY = "ryan-site-locale";
+const THEME_KEY = "kris-site-theme";
+const LOCALE_KEY = "kris-site-locale";
 const DEFAULT_PREFERENCE_KEY = "light:en";
 const preferenceListeners = new Set<() => void>();
 

@@ -8,15 +8,15 @@ export default function Portfolio() {
     <main className="site-shell">
       <div className="site-panel">
         <header className="site-header">
-          <a className="wordmark" href="#top" aria-label="Ryan Yang home">
-            RYAN YANG<span aria-hidden="true">.</span>
+          <a className="wordmark" href="#top" aria-label="Kris Yang home">
+            KRIS YANG<span aria-hidden="true">.</span>
           </a>
           <nav className="site-nav" aria-label="Primary navigation">
             <a href="#work">
               <LocaleText copy={{ en: "Work", zh: "项目" }} />
             </a>
             <a
-              href="https://github.com/Ryan-yang125"
+              href="https://github.com/krisyangdev"
               target="_blank"
               rel="noreferrer"
             >
@@ -59,8 +59,8 @@ export default function Portfolio() {
             <p>
               <LocaleText
                 copy={{
-                  en: "Ryan Yang builds local-first AI products and open-source systems that turn new capabilities into everyday tools.",
-                  zh: "Ryan Yang 构建本地优先的 AI 产品与开源系统，让新能力成为真正可用的日常工具。",
+                  en: "Kris Yang builds local-first AI products and open-source systems that turn new capabilities into everyday tools.",
+                  zh: "Kris Yang 构建本地优先的 AI 产品与开源系统，让新能力成为真正可用的日常工具。",
                 }}
               />
             </p>
@@ -101,13 +101,13 @@ export default function Portfolio() {
         <footer className="site-footer">
           <p>
             <LocaleText
-              copy={{ en: "© 2026 Ryan Yang", zh: "© 2026 Ryan Yang" }}
+              copy={{ en: "© 2026 Kris Yang", zh: "© 2026 Kris Yang" }}
             />
           </p>
           <div>
-            <a href="mailto:ruiyang0012@gmail.com">Email</a>
+            <a href="mailto:hi@krisyang.dev">Email</a>
             <a
-              href="https://github.com/Ryan-yang125"
+              href="https://github.com/krisyangdev"
               target="_blank"
               rel="noreferrer"
             >

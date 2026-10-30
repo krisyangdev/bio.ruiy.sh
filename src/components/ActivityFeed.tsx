@@ -16,21 +16,21 @@ type GitHubEvent = {
 const fallbackActivity: ActivityItem[] = [
   {
     title: "Working on Image2Studio",
-    detail: "Ryan-yang125 / gpt-image-2-prompts",
+    detail: "krisyangdev / gpt-image-2-prompts",
     time: "CURRENT",
     url: "https://image2studio.com",
   },
   {
     title: "Maintaining ChatLLM-Web",
-    detail: "Ryan-yang125 / ChatLLM-Web",
+    detail: "krisyangdev / ChatLLM-Web",
     time: "630★",
-    url: "https://github.com/Ryan-yang125/ChatLLM-Web",
+    url: "https://github.com/krisyangdev/ChatLLM-Web",
   },
   {
     title: "Publishing small agent tools",
     detail: "DropHere · CheckHere · Skill Manager",
     time: "2026",
-    url: "https://github.com/Ryan-yang125",
+    url: "https://github.com/krisyangdev",
   },
 ];
 
@@ -71,10 +71,10 @@ function describeEvents(events: GitHubEvent[]) {
     if (seen.has(key)) continue;
     seen.add(key);
 
-    const repoName = event.repo.name.replace("Ryan-yang125/", "");
+    const repoName = event.repo.name.split("/")[1];
     items.push({
       title: labels[event.type] ?? "Updated public work",
-      detail: repoName === "Ryan-yang125" ? "profile README" : repoName,
+      detail: repoName === "krisyangdev" ? "profile README" : repoName,
       time: relativeTime(event.created_at),
       url: `https://github.com/${event.repo.name}`,
     });
@@ -93,7 +93,7 @@ export default function ActivityFeed() {
     const load = async () => {
       try {
         const response = await fetch(
-          "https://api.github.com/users/Ryan-yang125/events/public?per_page=30",
+          "https://api.github.com/users/krisyangdev/events/public?per_page=30",
           {
             headers: { Accept: "application/vnd.github+json" },
             signal: controller.signal,

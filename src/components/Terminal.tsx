@@ -19,12 +19,12 @@ const initialLines: Line[] = [
 const commandMap: Record<string, string> = {
   help: "commands: about · now · projects · activity · contact · clear",
   about:
-    "Ryan Yang — independent AI product developer in Shanghai, building the last mile of AI work.",
+    "Kris Yang — independent AI product developer in Shanghai, building the last mile of AI work.",
   now: "Currently: Image2Studio, publishing tools, Agent Skills, and this personal site.",
   projects:
     "Image2Studio · ChatLLM-Web · DropHere · CheckHere · Motion Lexicon",
   activity: "Jumping to the latest public GitHub activity.",
-  contact: "ruiyang0012@gmail.com · x.com/ruiyanghim · github.com/Ryan-yang125",
+  contact: "hi@krisyang.dev · x.com/krisyangdev · github.com/krisyangdev",
 };
 
 const commandTargets: Record<string, string> = {
@@ -118,7 +118,7 @@ export default function Terminal() {
 
   return (
     <div className="command">
-      <div className="command-head">~/ryan — interactive shell</div>
+      <div className="command-head">~/kris — interactive shell</div>
       <div className="command-body">
         <div className="terminal-history" aria-live="polite" ref={historyRef}>
           {lines.map((line) => (

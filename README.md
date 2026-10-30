@@ -1,6 +1,6 @@
-# Ryan Yang — Personal Site
+# Kris Yang — Personal Site
 
-The source for [ruiy.pages.dev](https://ruiy.pages.dev): a bilingual, light-and-dark personal site for Ryan Yang's AI products, developer tools, and experiments.
+The source for [krisyang.dev](https://krisyang.dev): a bilingual, light-and-dark personal site for Kris Yang's AI products, developer tools, and experiments.
 
 ## Local development
 
@@ -16,4 +16,4 @@ pnpm build
 pnpm preview
 ```
 
-Cloudflare Pages publishes the static `dist/` output to [ruiy.pages.dev](https://ruiy.pages.dev).
+Cloudflare Pages publishes the static `dist/` output to [krisyang.dev](https://krisyang.dev).

@@ -38,7 +38,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/lerro#readme",
+        href: "https://github.com/krisyangdev/lerro#readme",
         label: { en: "View the source", zh: "查看源码" },
       },
     },
@@ -77,7 +77,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/ChatLLM-Web#readme",
+        href: "https://github.com/krisyangdev/ChatLLM-Web#readme",
         label: { en: "View the source", zh: "查看源码" },
       },
     },
@@ -119,7 +119,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/motion-lexicon#readme",
+        href: "https://github.com/krisyangdev/motion-lexicon#readme",
         label: { en: "View the source", zh: "查看源码" },
       },
     },
@@ -161,7 +161,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/checkhere#readme",
+        href: "https://github.com/krisyangdev/checkhere#readme",
         label: { en: "View the source", zh: "查看源码" },
       },
     },
@@ -203,7 +203,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/signature-visual#readme",
+        href: "https://github.com/krisyangdev/signature-visual#readme",
         label: { en: "View the source", zh: "查看源码" },
       },
     },
@@ -245,7 +245,7 @@ export const projects = [
         },
       ],
       resource: {
-        href: "https://github.com/Ryan-yang125/gpt-image-2-skills#readme",
+        href: "https://github.com/krisyangdev/gpt-image-2-skills#readme",
         label: { en: "Open the Agent Skill", zh: "打开 Agent Skill" },
       },
     },

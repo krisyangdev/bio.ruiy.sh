@@ -105,7 +105,7 @@ export default function Portfolio() {
             />
           </p>
           <div>
-            <a href="mailto:hi@krisyang.dev">Email</a>
+            <a href="mailto:ruiyang0012@gmail.com">Email</a>
             <a
               href="https://github.com/krisyangdev"
               target="_blank"

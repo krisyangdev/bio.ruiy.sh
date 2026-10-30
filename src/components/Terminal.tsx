@@ -24,7 +24,7 @@ const commandMap: Record<string, string> = {
   projects:
     "Image2Studio · ChatLLM-Web · DropHere · CheckHere · Motion Lexicon",
   activity: "Jumping to the latest public GitHub activity.",
-  contact: "hi@krisyang.dev · x.com/krisyangdev · github.com/krisyangdev",
+  contact: "ruiyang0012@gmail.com · x.com/krisyangdev · github.com/krisyangdev",
 };
 
 const commandTargets: Record<string, string> = {
